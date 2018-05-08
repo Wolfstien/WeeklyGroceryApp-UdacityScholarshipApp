@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="price_metric"
+        android:title="Price Metric"
+        android:summary="Select your currency"
+        android:entries="@array/Currency"
+        android:defaultValue="$"
+        android:entryValues="@array/Currency">
+
+    </ListPreference>
+
+</PreferenceScreen>

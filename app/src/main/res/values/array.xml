@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Currency">
+        <item>$</item>
+        <item>₹</item>
+        <item>£</item>
+        <item>€</item>
+        <item>¥</item>
+        <item>₮</item>
+        <item>₫</item>
+        <item>Z$</item>
+        <item>₡</item>
+        <item>Kč</item>
+    </string-array>
+</resources>

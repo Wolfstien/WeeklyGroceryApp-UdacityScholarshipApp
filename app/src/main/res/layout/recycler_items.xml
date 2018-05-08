@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_onClick"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/item_list_name"
+        android:layout_width="214dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/Amount"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/Price"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/item_check"
+        android:gravity="center" />
+
+    <CheckBox
+        android:id="@+id/item_check"
+        style="@android:style/Widget.Material.CompoundButton.CheckBox"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center" />
+
+</RelativeLayout>
